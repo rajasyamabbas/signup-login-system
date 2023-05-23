@@ -159,13 +159,20 @@ session_start();
 
 Login page
 
+<img alt="UPDATE" width="auto" src="https://github.com/rajasyamabbas/signup-login-system/blob/main/LOGIN.PNG">
+
 If we entered wrong account or account havent registered that will show like this
+<img alt="UPDATE" width="auto" src="https://github.com/rajasyamabbas/signup-login-system/blob/main/LOGIN%20WRONG.PNG">
 
 Signup page
+<img alt="UPDATE" width="auto" src="https://github.com/rajasyamabbas/signup-login-system/blob/main/SIGNUP.PNG">
 
 After we signup the data will added to database in MySQL
+<img alt="UPDATE" width="auto" src="https://github.com/rajasyamabbas/signup-login-system/blob/main/PHP.PNG">
 
 After we entered correct name & password we'll enter the index page
+<img alt="UPDATE" width="auto" src="https://github.com/rajasyamabbas/signup-login-system/blob/main/INDEX.PNG">
 
 
-To see full code `CLICK ME`
+*Click this button to see complete code* 
+[CLICK ME](https://github.com/rajasyamabbas/signup-login-system/archive/refs/heads/main.zip)
