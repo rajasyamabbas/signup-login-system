@@ -3,22 +3,21 @@ Signup and Login Project
 
 ## 👨🏼‍💻Scenario
 
-We are developing a web application that requires user authentication. The application will have a login and signup functionality to allow users to access personalized content and features. The project will be implemented using PHP for server-side scripting and a MySQL database for storing user information.
+Users can add new tasks by entering the task title. When the "Add Task" button is clicked, the task is inserted into the "tasks" table in the database, and when user click delete button the task that choosen will disappear.
+
 
 ## ⚡️Requirements:
 
-1. User Signup:
-- Users should be able to create an account by providing a unique username, a valid email address, and a password.
-- The password should be securely stored using hashing techniques.
-- Validate the user inputs, such as checking for valid email addresses and ensuring that the username is not already taken.
-
-2. User Login:
+1. Add Tasks:
 - Registered users should be able to log in using their credentials.
 - Verify the user's entered password against the stored hashed password.
 - Implement session management to maintain user authentication across different pages.
 
+2. Delete Tasks:
+- Users can delete tasks by selecting them from the list and clicking the "Delete Task" button. The application removes the selected tasks from the database.
+
 3. Database:
-- Stored into MySQL organized with phpmyadmin
+- Stored into text.txt in text editor (VS Code)
 
 ## 🤖Programming Language
 This program was made by `PHP`, `SQL`, `HTML`, also `CSS`
@@ -160,23 +159,6 @@ session_start();
 See the complete demo on video below:
 
 [![Video Name](https://img.youtube.com/vi/sHiYCDOwDZs/0.jpg)](https://www.youtube.com/watch?v=sHiYCDOwDZs)
-
-Login page
-
-<img alt="UPDATE" width="auto" src="https://github.com/rajasyamabbas/signup-login-system/blob/main/LOGIN.PNG">
-
-If we entered wrong account or account havent registered that will show like this
-<img alt="UPDATE" width="auto" src="https://github.com/rajasyamabbas/signup-login-system/blob/main/LOGIN%20WRONG.PNG">
-
-Signup page
-<img alt="UPDATE" width="auto" src="https://github.com/rajasyamabbas/signup-login-system/blob/main/SIGNUP.PNG">
-
-After we signup the data will added to database in MySQL
-<img alt="UPDATE" width="auto" src="https://github.com/rajasyamabbas/signup-login-system/blob/main/PHP.PNG">
-
-After we entered correct name & password we'll enter the index page
-<img alt="UPDATE" width="auto" src="https://github.com/rajasyamabbas/signup-login-system/blob/main/INDEX.PNG">
-
 
 *Click this button to see complete code* 
 [CLICK ME](https://github.com/rajasyamabbas/signup-login-system/archive/refs/heads/main.zip)
